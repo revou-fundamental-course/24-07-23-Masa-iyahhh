@@ -100,6 +100,6 @@ function slideshowImg(slide) {
         if (i > 0) {
             slidePicture[i - 1].classList.add('inactive');
         };
-    } ,3500);
+    } ,2600);
 };
 slideshowImg(3);
