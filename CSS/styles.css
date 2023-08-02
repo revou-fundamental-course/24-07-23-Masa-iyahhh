@@ -99,6 +99,7 @@ section.firstpage {
     display: none;
 }
 .slidePicture img{
+    position:inherit;
     height: 300px;
     border-radius: 5px;
     align-self: auto;
