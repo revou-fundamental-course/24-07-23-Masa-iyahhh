@@ -95,7 +95,7 @@ section.firstpage {
     margin-top: 35px;
     justify-content: center;
 }
-.slidePicture .inactive {
+.slidePicture .Image {
     display: none;
 }
 .slidePicture img{

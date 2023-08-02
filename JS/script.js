@@ -89,16 +89,16 @@ const slidePicture = document.querySelectorAll('.slidePicture > img');
 
 function slideshowImg(slide) {
     let i = 0;
-    slidePicture[i].classList.remove('inactive');
+    slidePicture[i].classList.remove('Image');
     setInterval(() => {
         i++;
         if( i == slide) {
             i = 0;
-            slidePicture[slide - 1].classList.add('inactive');
+            slidePicture[slide - 1].classList.add('Image');
         }
-        slidePicture[i].classList.remove('inactive');
+        slidePicture[i].classList.remove('Image');
         if (i > 0) {
-            slidePicture[i - 1].classList.add('inactive');
+            slidePicture[i - 1].classList.add('Image');
         };
     } ,2600);
 };
